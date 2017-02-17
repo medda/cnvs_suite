@@ -17,11 +17,6 @@ COPY dependency_resolvers_conf.xml /galaxy-central/config
 
 
 
-
-
-
-
-
 ADD cnvs_suite_tools.yml $GALAXY_ROOT/tools.yaml
 RUN install-tools $GALAXY_ROOT/tools.yaml
 
@@ -30,4 +25,8 @@ RUN install-tools $GALAXY_ROOT/tools.yaml
 
 
 
+RUN chmod -R 777 /home/galaxy/logs
 
+
+
+VOLUME ["/home/galaxy/logs/"]
