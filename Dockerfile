@@ -25,7 +25,7 @@ RUN install-tools $GALAXY_ROOT/tools.yaml
 
 
 
-RUN chmod -R 777 /home/galaxy/logs
+RUN chmod -R 777 /home/galaxy/logs/
 
 
 
