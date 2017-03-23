@@ -1,8 +1,8 @@
-#FROM bgruening/galaxy-stable:16.04
+FROM bgruening/galaxy-stable:17.01
 
 
 
-FROM bgruening/galaxy-stable
+#FROM bgruening/galaxy-stable
 
 MAINTAINER Ricardo Medda, medda@crs4.it
 
